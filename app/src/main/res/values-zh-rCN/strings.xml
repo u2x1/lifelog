@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">生命日志</string>
+    <string name="action_settings">设置</string>
+    <string name="action_about">关于</string>
+    <string name="next">下一个</string>
+    <string name="previous">上一个</string>
+    <string name="edit">编辑</string>
+    <string name="add">添加</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="event_name">事件名称</string>
+    <string name="start_time">起始时间</string>
+    <string name="end_time">结束时间</string>
+    <string name="add_event">添加一个事件</string>
+    <string name="time_format_error">时间格式错误</string>
+    <string name="null_time">时间为空</string>
+    <string name="event_name_empty">事件名称不能为空</string>
+    <string name="event_type_empty">事件类型不能为空</string>
+    <string name="already_ongoing">你已有一个正在进行的事件</string>
+    <string name="get_event_from_preference_failed">从SharedPreference获取事件失败</string>
+    <string name="an_ongoing_event">事件进行中</string>
+    <string name="you_have_an_ongoing">你有一个正在进行的事件。详细如下：</string>
+    <string name="time_empty">时间不能为空</string>
+    <string name="ago">前</string>
+    <string name="at">于</string>
+    <string name="unknown">未知</string>
+    <string name="start_from_now">从现在开始计时</string>
+    <string name="enter_precise_time">输入确切时间</string>
+
+    <string name="mins">分</string>
+    <string name="hours">小时</string>
+
+    <string-array name="time_scale_array">
+        <item>分钟</item>
+        <item>小时</item>
+    </string-array>
+
+    <string-array name="event_type_array">
+        <item>娱乐</item>
+        <item>工作</item>
+        <item>学习</item>
+        <item>休闲</item>
+        <item>其他</item>
+    </string-array>
+    <string name="confirm">确定</string>
+    <string name="delete_event">确定要删除事件 \"%1$s\"？</string>
+    <string name="end_time_earlier_than_start_time">结束事件不能早于起始时间</string>
+    <string name="delete">删除</string>
+    <string name="edit_an_event">编辑事件</string>
+    <string name="save">保存</string>
+    <string name="secondary_event_name">副名称（可选）</string>
+    <string name="if_it_is_done">如果事件已结束，请于下框內输入时间。</string>
+    <string name="event_detail">
+        名称:      %1$s\n
+        第二名称：  %2$s\n
+        起始时间：  %3$s\n
+        类型:      %4$s
+    </string>
+    <string name="event_sec_name">: %1$s</string>
+
+    <string name="about_abstract"><![CDATA[
+        此应用的制作受<b>《意志力：关于自控、专注和效率的心理学》</b>中"<b>量化自我</b>"概念启发。本应用主要用于监控自身行为。
+        ]]>
+    </string>
+
+    <string name="about_quote"><![CDATA[
+       > <i>“我每天都记下自己写了多少页，这样，如果那一两天我没有写，那么那一两天的日志就是空白的。这些空白就像一双双眼睛盯着我，督促我多加把劲，补上落下的任务，”
+            （安东尼·特罗洛普）解释道，“日志就摆在我面前，如果哪一周页数不够，那么它就在我的眼里放了一粒沙子；如果哪个月页数不够，那么它就在我的心中插了一把剑。”
+            … 他写道，“… 绝对没有什么东西像不可违反的规矩那样强大有效，它有着滴水穿石的力量。每天做一点，一天天坚持下去，再大的山也能移走。”</i>
+       <br/><br/>
+       > <i> … （埃丝特·戴森）说道, “我多走楼梯少乘电梯了，因为我知道我走更多的步数我就能得到更高的点数。晚上参加派对，我会告诉自己，如果我现在就离开，
+            我就可以在九点半而非十点半上床睡觉，我就可以睡更多的时间，次日早餐我的睡眠数字就会好看点。在很多方面，它把我解放出来，让我做正确的事情，
+            因为我随时可以通过这些数字来检查和责备自己错误的行为。” </i>
+       <br/><br/>
+       > <i> … 监控是第一步，但只有监控未必就足够了。托马斯·杰斐逊记下每一分钱是怎么挣的、怎么花的 …
+            然而他并没有整理明细，等他意识到，为时已晚。最后算总帐的时候他吃惊地发现自己背上了沉重的债务。记账让他有一种错觉，即误以为财务状况在他的控制之下，但是，只记账是不够的。
+            他需要对他的数据进行分析 … </i>
+    ]]></string>
+    <string name="action_stat">统计</string>
+    <string name="login_or_register">登录/注册</string>
+    <string name="login">登录</string>
+    <string name="register">注册</string>
+    <string name="user_exists">已注册</string>
+    <string name="user_not_exists">未注册</string>
+    <string name="username">用户名</string>
+    <string name="password">密码</string>
+    <string name="title_activity_settings">设置</string>
+    <string name="sync_header">同步</string>
+    <string name="sync_options">同步选项</string>
+    <string name="info">信息</string>
+    <string name="user_info_text">用户名: %1$s\n上次同步时间: %2$s</string>
+    <string name="logout">登出</string>
+    <string name="something_went_wrong">出了点问题…</string>
+    <string name="checking_availability">正在检查用户名可用性…</string>
+    <string name="wait_for_availability_check">请等待用户名可用性检查结束</string>
+    <string name="username_or_passwd_empty">用户名或密码不能为空</string>
+    <string name="login_success">登录成功</string>
+    <string name="register_success">注册成功</string>
+    <string name="incorrect_passwd">密码错误</string>
+    <string name="never">从未</string>
+    <string name="account">帐号</string>
+    <string name="sync_now">开始同步</string>
+    <string name="sync_event_on_startup">应用启动时自动同步</string>
+    <string name="user_session_not_exist">用户会话不存在，请重新登录</string>
+    <string name="download_events_failed">同步失败: %1$s</string>
+    <string name="sync_success">同步成功</string>
+    <string name="sync_start">正在同步…</string>
+    <string name="proceed_to_register">确定要注册一个新帐号吗？</string>
+
+</resources>

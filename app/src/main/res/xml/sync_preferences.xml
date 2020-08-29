@@ -1,0 +1,34 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:title="@string/account">
+
+        <Preference
+            android:key="pref_login_btn"
+            app:fragment="com.nutr1t07.lifelog.fragment.LoginFragment"
+            app:title="@string/login" />
+
+
+        <Preference
+            android:key="pref_logout_btn"
+            android:title="@string/logout" />
+
+
+        <Preference
+            android:key="pref_info"
+            android:selectable="false"
+            android:summary="@string/user_info_text"
+            android:title="@string/info" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/sync_options">
+        <Preference
+            android:key="pref_sync_btn"
+            android:title="@string/sync_now"
+            app:icon="@drawable/sync" />
+        <SwitchPreferenceCompat
+            app:key="sync"
+            app:title="@string/sync_event_on_startup" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
